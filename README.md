@@ -39,7 +39,7 @@ privacy and offline accessibility.
 
 Watch VaultX in action:
 
-📺 **YouTube Demo:** *(Add your YouTube video link here)*
+📺 **YouTube Demo:** https://youtube.com/shorts/rrNM1jZxy_Q?feature=share
 
 The demo showcases:
 
