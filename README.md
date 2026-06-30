@@ -234,14 +234,20 @@ VaultX
 ├── android/
 ├── ios/
 ├── lib/
-│   ├── screens/
-│   ├── widgets/
-│   ├── services/
-│   ├── models/
+│   ├── pdf_thumbnail.dart
+│   ├── ocr_utils.dart
+│   ├── change_pin.dart
+│   ├── category_screen.dart
 │   └── main.dart
+│   ├── pin_lock.dart
+│   ├── recent_screen.dart
+│   ├── scan_preview.dart
+│   ├── scanner_screen.dart
+│   ├── search_screen.dart
+│   ├── settings.dart
 │
 ├── assets/icon
-│   ├── icon.png
+│   ├── vaultx_icon.png
 ├── assets/screenshots/
 │   ├── home_screen.jpeg
 │   ├── select_category.jpeg
@@ -254,7 +260,6 @@ VaultX
 │
 ├── pubspec.yaml
 ├── README.md
-├── LICENSE
 └── .gitignore
 ```
 
