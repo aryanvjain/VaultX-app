@@ -81,7 +81,7 @@ privacy-focused document manager.
 
 ### Home Screen
 
-![Home](screenshots/home_screen.png)
+![Home](screenshots/home_screen.jpeg)
 
 ### Categories
 
