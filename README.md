@@ -81,35 +81,32 @@ privacy-focused document manager.
 
 ### Home Screen
 
-![Home](screenshots/home.png)
+![Home](assets/screenshots/home_screen.png)
 
 ### Categories
 
-![Categories](screenshots/categories.png)
+![Categories](assets/screenshots/select_category.jpeg)
 
-### Document Scanner
+### Crop Page
 
-![Scanner](screenshots/scanner.png)
+![Scanner](assets/screenshots/crop_page.jpeg)
 
-### Scan Preview
+### PDF Preview
 
-![Scan Preview](screenshots/scan_preview.png)
+![Pdf Preview](assets/screenshots/pdf_preview.jpeg)
 
-### OCR Search
-
-![OCR Search](screenshots/search.png)
 
 ### Search Results
 
-![Search Results](screenshots/search_results.png)
+![Search Results](assets/screenshots/search_screen.jpeg)
 
-### Fingerprint Authentication
+### Settings
 
-![Fingerprint](screenshots/fingerprint.png)
+![Settings](assets/screenshots/settings.jpeg)
 
 ### Custom Categories
 
-![Custom Categories](screenshots/custom_categories.png)
+![Custom Categories](screenshots/custom_category.jpeg)
 
 ------------------------------------------------------------------------
 
