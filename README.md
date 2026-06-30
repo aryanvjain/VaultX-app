@@ -81,28 +81,28 @@ privacy-focused document manager.
 
 ### Home Screen
 
-![Home](assets/screenshots/home_screen.png)
+![Home](screenshots/home_screen.png)
 
 ### Categories
 
-![Categories](assets/screenshots/select_category.jpeg)
+![Categories](screenshots/select_category.jpeg)
 
 ### Crop Page
 
-![Scanner](assets/screenshots/crop_page.jpeg)
+![Scanner](screenshots/crop_page.jpeg)
 
 ### PDF Preview
 
-![Pdf Preview](assets/screenshots/pdf_preview.jpeg)
+![Pdf Preview](screenshots/pdf_preview.jpeg)
 
 
 ### Search Results
 
-![Search Results](assets/screenshots/search_screen.jpeg)
+![Search Results](screenshots/search_screen.jpeg)
 
 ### Settings
 
-![Settings](assets/screenshots/settings.jpeg)
+![Settings](screenshots/settings.jpeg)
 
 ### Custom Categories
 
