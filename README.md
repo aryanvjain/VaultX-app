@@ -240,17 +240,17 @@ VaultX
 │   ├── models/
 │   └── main.dart
 │
-├── assets/
+├── assets/icon
 │   ├── icon.png
-├── screenshots/
-│   ├── home.png
-│   ├── categories.png
-│   ├── scanner.png
-│   ├── scan_preview.png
-│   ├── search.png
-│   ├── search_results.png
-│   ├── fingerprint.png
-│   └── custom_categories.png
+├── assets/screenshots/
+│   ├── home_screen.jpeg
+│   ├── select_category.jpeg
+│   ├── crop_page.jpeg
+│   ├── pdf_preview.jpeg
+│   ├── recent_document.jpeg
+│   ├── search_screen.jpeg
+│   ├── settings.jpeg
+│   └── custom_category.jpeg
 │
 ├── pubspec.yaml
 ├── README.md
