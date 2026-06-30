@@ -1,27 +1,311 @@
-*VaultX*
-VaultX is a cross-platform Flutter application that helps users secure, organize, and manage important information in a structured and user-friendly way with finerprint authentication. Built with Flutter, the app focuses on simplicity, performance, and a clean modern design.
+<p align="center">
+  <img src="assets/icon.png" alt="VaultX App Icon" width="170">
+</p>
 
-**Features**
+<h1 align="center">VaultX</h1>
 
-- 🔐 PIN + fingerprint biometric authentication
-- 🔒 Auto-locks when app is minimized
-- 📁 Organize documents across 5 categories — Identity, Education, Work, Certificates, Others
-- 📷 Scan physical documents and export as PDF
-- 🔍 Search across all files instantly
-- 🕘 Recent documents with quick access
-- 🌙 Dark mode support
-- 📱 Cross-platform — Android & iOS
+<p align="center">
+  <strong>Secure Offline Document Manager</strong><br>
+  Organize • Scan • Search • Secure
+</p>
+A modern Flutter application that securely stores, organizes, scans, and
+searches personal documents entirely on your device. VaultX combines
+document management with OCR-powered search, allowing users to instantly
+find important files without relying on cloud storage.
 
-## Screenshots
-<img width="715" height="1600" alt="WhatsApp Image 2026-06-03 at 23 25 26 (2)" src="https://github.com/user-attachments/assets/2c0302d3-f898-440d-80c5-2c87225cd027" />
-<img width="1080" height="2414" alt="WhatsApp Image 2026-06-03 at 23 25 27" src="https://github.com/user-attachments/assets/586810d0-92fd-40c1-a3fb-08f377fb7878" />
-<img width="715" height="1600" alt="WhatsApp Image 2026-06-03 at 23 25 28" src="https://github.com/user-attachments/assets/d8693d21-abc1-466b-89ee-f9b0a18e9845" />
-<img width="715" height="1600" alt="WhatsApp Image 2026-06-03 at 23 25 25" src="https://github.com/user-attachments/assets/f9f17b64-6fe0-43bf-b24d-1a664a53105b" />
-<img width="715" height="1600" alt="WhatsApp Image 2026-06-03 at 23 25 26" src="https://github.com/user-attachments/assets/3c6a1ead-96b7-40b7-9be9-80db67e355a6" />
-<img width="1080" height="2414" alt="WhatsApp Image 2026-06-03 at 23 25 26 (1)" src="https://github.com/user-attachments/assets/5977808a-bffe-4921-9626-2dca47a7dc8d" />
-
-## Demo Video:-
-https://youtube.com/shorts/JIh-SRape2w?si=v-bxCrjWVJHngqMN
+**Built using Flutter • Dart • Google ML Kit**
 
 
+------------------------------------------------------------------------
 
+# Project Overview
+
+Managing important documents such as identity proofs, certificates,
+educational records, and work documents can quickly become messy. VaultX
+provides a secure and organized solution by allowing users to import,
+scan, categorize, search, and manage documents from a single
+application.
+
+Unlike traditional file managers, VaultX integrates Optical Character
+Recognition (OCR), enabling users to search documents using text
+contained inside images and PDFs, not just filenames.
+
+All documents remain stored locally on the user's device, ensuring
+privacy and offline accessibility.
+
+------------------------------------------------------------------------
+
+# 🎥 Demo
+
+Watch VaultX in action:
+
+📺 **YouTube Demo:** *(Add your YouTube video link here)*
+
+The demo showcases:
+
+-   Fingerprint Authentication
+-   Importing Images and PDFs
+-   Multi-page Document Scanning
+-   Crop, Rotate & Reorder Pages
+-   PDF Generation
+-   OCR Text Extraction
+-   Searching by Document Content
+-   Custom Categories
+-   Sharing Documents
+-   Recent Documents
+
+------------------------------------------------------------------------
+
+# 🔒 Privacy First
+
+VaultX follows a **local-first** architecture. Every
+operation---including document storage, OCR text extraction, PDF
+processing, thumbnail generation, and search---is performed **entirely
+on your device**.
+
+-   ✅ No cloud storage
+-   ✅ No document uploads
+-   ✅ No external servers involved
+-   ✅ Works completely offline
+-   ✅ Your documents remain under your control
+
+Whether you're storing identity documents, certificates, or personal
+records, your data never leaves your device, making VaultX a
+privacy-focused document manager.
+
+------------------------------------------------------------------------
+
+# 📸 Screenshots
+
+> Place all screenshots inside the **`screenshots/`** folder.
+
+### Home Screen
+
+![Home](screenshots/home.png)
+
+### Categories
+
+![Categories](screenshots/categories.png)
+
+### Document Scanner
+
+![Scanner](screenshots/scanner.png)
+
+### Scan Preview
+
+![Scan Preview](screenshots/scan_preview.png)
+
+### OCR Search
+
+![OCR Search](screenshots/search.png)
+
+### Search Results
+
+![Search Results](screenshots/search_results.png)
+
+### Fingerprint Authentication
+
+![Fingerprint](screenshots/fingerprint.png)
+
+### Custom Categories
+
+![Custom Categories](screenshots/custom_categories.png)
+
+------------------------------------------------------------------------
+
+# Features
+
+## 📂 Smart Document Organization
+
+-   Identity, Education, Work, Certificates and Others categories
+-   Create custom categories
+-   Move documents between categories
+-   Rename documents
+-   Delete documents
+-   Recent Documents
+
+## 📷 Built-in Document Scanner
+
+-   Multi-page scanning
+-   Crop pages
+-   Rotate pages
+-   Reorder pages
+-   Delete unwanted pages
+-   Generate PDFs
+-   Preview before saving
+
+## 🔍 OCR-Powered Search
+
+-   OCR for imported images
+-   OCR for scanned documents
+-   OCR for PDFs
+-   Search by filename
+-   Search by document content
+
+## 📄 PDF Support
+
+-   PDF thumbnails
+-   Import PDFs
+-   OCR on PDFs
+-   Share PDFs
+
+## 🔐 Security
+
+-   Fingerprint authentication
+-   Local storage
+-   Offline access
+
+## 📤 File Management
+
+-   Import
+-   Share
+-   Rename
+-   Move
+-   Delete
+
+------------------------------------------------------------------------
+
+# Application Workflow
+
+``` text
+Launch Application
+      │
+      ▼
+Fingerprint Authentication
+      │
+      ▼
+Home Dashboard
+      │
+ ┌──────┼─────────────┐
+ ▼      ▼             ▼
+Import  Scan      Recent Files
+Document Document
+ │        │
+ ▼        ▼
+OCR Processing
+      │
+      ▼
+Save to Category
+      │
+      ▼
+Generate Thumbnail
+      │
+      ▼
+Search • Rename • Move • Share
+```
+
+------------------------------------------------------------------------
+
+# Technologies Used
+
+-   Flutter
+-   Dart
+-   Google ML Kit
+-   Syncfusion PDF
+-   PDFX
+-   SharedPreferences
+-   File Picker
+-   Image Picker
+-   Local Authentication
+-   Path Provider
+-   Open File
+-   Share Plus
+
+------------------------------------------------------------------------
+
+## 📦 Packages Used
+
+| Package | Purpose |
+|----------|---------|
+| `google_mlkit_text_recognition` | OCR Text Extraction |
+| `syncfusion_flutter_pdf` | PDF Creation & Processing |
+| `pdfx` | PDF Rendering & Thumbnails |
+| `file_picker` | Import Documents |
+| `image_picker` | Capture Images |
+| `shared_preferences` | Local Data Storage |
+| `local_auth` | Fingerprint Authentication |
+| `path_provider` | Local File Management |
+| `open_file` | Open Stored Files |
+| `share_plus` | Share Documents |
+------------------------------------------------------------------------
+
+# Repository Structure
+
+``` text
+VaultX
+│
+├── android/
+├── ios/
+├── lib/
+│   ├── screens/
+│   ├── widgets/
+│   ├── services/
+│   ├── models/
+│   └── main.dart
+│
+├── assets/
+│   ├── icon.png
+├── screenshots/
+│   ├── home.png
+│   ├── categories.png
+│   ├── scanner.png
+│   ├── scan_preview.png
+│   ├── search.png
+│   ├── search_results.png
+│   ├── fingerprint.png
+│   └── custom_categories.png
+│
+├── pubspec.yaml
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+------------------------------------------------------------------------
+
+# Getting Started
+
+``` bash
+git clone https://github.com/aryanvjain/VaultX.git
+cd VaultX
+flutter pub get
+flutter run
+```
+
+------------------------------------------------------------------------
+
+# Key Highlights
+
+-   Fully offline document manager
+-   OCR-powered content search
+-   Multi-page scanner
+-   PDF generation
+-   Fingerprint lock
+-   Modern Material Design UI
+-   Custom categories
+-   PDF thumbnails
+
+------------------------------------------------------------------------
+
+# Future Improvements
+
+-   Cloud backup & sync
+-   Encrypted storage
+-   Tags & favorites
+-   AI document classification
+-   Expiry reminders
+-   Multi-language OCR
+-   Backup & restore
+
+------------------------------------------------------------------------
+
+# Author
+
+**Aryan Jain**
+
+-   GitHub: https://github.com/aryanvjain
+-   LinkedIn: https://www.linkedin.com/in/aryan-vineet-jain/
+
+------------------------------------------------------------------------
+
+If you found this project useful, consider giving the repository a ⭐.
