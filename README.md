@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="VaultX App Icon" width="170">
+  <img src="assets/icon/vaultx_icon.png" alt="VaultX App Icon" width="170">
 </p>
 
 <h1 align="center">VaultX</h1>
